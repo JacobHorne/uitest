@@ -1,0 +1,189 @@
+<!doctype html>
+<html>
+	<head>
+			<meta charset="utf-8">
+			<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+			<title>Forms</title>
+
+			<meta name="description" content=""> 
+			<meta name="viewport" content="width=device-width, intial-scale=1">
+
+			<!-- Place Favicon.ico in the root dierectory -->
+
+			<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<form action="path/to/serverscript.php" method="post">
+
+		<!-- Fieldset groups like elements -->
+		<fieldset>
+			<legend>PARTICIPANT INFORMATION</legend>
+			<div>
+				<label for"firstname">First Name:</label>
+				<input type="text" name="firstname" id="firstname" value="" />
+			</div>
+			<div>
+				<label for"lastname">Last Name:</label>
+				<input type="text" name="lastname" id="lastname" value="" />
+			</div>
+			<div>
+				<label for"address">Address:</label>
+				<input type="text" name="address" id="address" value="" />
+			</div>
+			<div>
+				<label for"city">City:</label>
+				<input type="text" name="city" id="city" value="" />
+			</div>
+			<div>
+				<label for"zip">Zip Code:</label>
+				<input type="text" name="zip" id="zip" value="" />
+			</div>
+
+			<div>
+				<h4>Select State</h4>
+				<select name="select-choice" id="select-choice">
+					<option value="Choice_1">South Carolina</option>
+					<option value="Choice_2">North Carolina</option>
+					<option value="Choice_3">Georgia</option>
+					<option value="Choice_4">Florida</option>
+					<option value="Choice_5">Kentucky</option>
+				</select>
+			</div>
+
+			<div>
+				<h4>Select Age</h4>
+				<select name="select-choice" id="select-choice">
+					<option value="Choice_1">0-17</option>
+					<option value="Choice_2">18-34</option>
+					<option value="Choice_3">over 35</option>
+				</select>
+			</div>
+		</fieldset>
+				
+				<ol>
+					<li>
+						<h4>In the last 12 months, how many film have you seen in theatres?</h4>
+						<label for="films-choice-1">0-5</label>
+						<input type="radio" name="films" id="films-choice-1" value="choice-1"/>
+
+						<label for="films-choice-2">6-10</label>
+						<input type="radio" name="films" id="films-choice-2" value="choice-2"/>
+		
+						<label for="films-choice-3">More than 10</label>
+						<input type="radio" name="films" id="films-choice-3" value="choice-3"/>
+					</li>
+					<li>
+						<h4>In the last 12 months, what genres of movies have you seen in 
+						theatres? (Select all that apply)</h4>
+
+
+						<div>
+							<label for="checkbox-1">Action-Adventure</label>
+							<input type="checkbox" name"checkbox-1"="" id="checkbox-1">
+
+							<label for="checkbox-2">Sci-Fi</label>
+							<input type="checkbox" name"checkbox-2"="" id="checkbox-2"> 
+
+							<label for="checkbox-3">Comedy</label>
+							<input type="checkbox" name"checkbox-3"="" id="checkbox-3"> 
+
+							<label for="checkbox-5">Animated</label>
+							<input type="checkbox" name"checkbox-5"="" id="checkbox-5">
+
+							<label for="checkbox-6">Horror</label>
+							<input type="checkbox" name"checkbox-6"="" id="checkbox-6"> 
+
+							<label for="checkbox-7">Family</label>
+							<input type="checkbox" name"checkbox-7"="" id="checkbox-7"> 
+
+							<label for="checkbox-8">Documentary</label>
+							<input type="checkbox" name"checkbox-8"="" id="checkbox-8"> 
+
+						</div>
+					</li>
+
+					</li>
+					<li>
+						<h4>If you like watching movies in the theatre, how likely are you to buy the dvd/blue-ray layer?</h4>
+
+						<label for="radio-choice">Very Likely</label>
+						<input type="radio" name="radio-choice" id="radio-choice-13" value="choice-13"/>
+
+						<label for="radio-choice">Somewhat Likely</label>
+						<input type="radio" name="radio-choice" id="radio-choice-14" value="choice-14"/>
+		
+						<label for="radio-choice">Not very likely</label>
+						<input type="radio" name="radio-choice" id="radio-choice-15" value="choice-15"/>
+
+						<label for="radio-choice">Not likely at all</label><input type="radio" name="radio-choice" id="radio-choice-15" value="choice-15"/>
+
+					</li>
+					<li>
+						<h4>Which of the following aspects do you consider most important to a good movie?</h4>
+
+						<label for="radio-choice">Casting</label>
+						<input type="radio" name="radio-choice" id="radio-choice-17" value="choice-17"/>
+
+						<label for="radio-choice">Writing</label>
+						<input type="radio" name="radio-choice" id="radio-choice-18" value="choice-18"/>
+		
+						<label for="radio-choice">Special Effects</label>
+						<input type="radio" name="radio-choice" id="radio-choice-19" value="choice-19"/>
+
+						<label for="radio-choice">Directing</label>
+						<input type="radio" name="radio-choice" id="radio-choice-20" value="choice-20"/>
+					</li>
+					<li>
+						<h4>How likely are you to watch a movie during it's opening weekend?</h4>
+
+						<label for="radio-choice">Very Likely</label>
+						<input type="radio" name="radio-choice" id="radio-choice-21" value="choice-21"/>
+
+						<label for="radio-choice">Somewhat Likely</label>
+						<input type="radio" name="radio-choice" id="radio-choice-22" value="choice-22"/>
+		
+						<label for="radio-choice">Not very likely</label>
+						<input type="radio" name="radio-choice" id="radio-choice-23" value="choice-23"/>
+
+						<label for="radio-choice">Not likely at all</label>
+						<input type="radio" name="radio-choice" id="radio-choice-24" value="choice-24"/>
+					</li>
+					<li>
+						<h4>In the last 12 months, what is the best movie you've seen in theatres?</h4>
+						
+						<div>
+							<label for"textarea"></label>
+							<textarea cols="100" rows="10" name="textarea" id="textarea"></textarea>
+						</div>
+					</li>
+					<li>
+						<h4>What about the movie was most enjoyable?</h4>
+						<div>
+							<label for"textarea"></label>
+							<textarea cols="100" rows="10" name="textarea" id="textarea"></textarea>
+						</div>
+					</li>
+					<li>
+						<h4>How likely are you to see a movie in theatres a second time?</h4>
+
+						<label for="radio-choice-25">Very Likely</label>
+						<input type="radio" name="radio-choice" id="radio-choice-25" value="choice-25"/>
+
+						<label for="radio-choice-26">Somewhat Likely</label>
+						<input type="radio" name="radio-choice" id="radio-choice-26" value="choice-26"/>
+		
+						<label for="radio-choice-27">Not very likely</label>
+						<input type="radio" name="radio-choice" id="radio-choice-27" value="choice-27"/>
+
+						<label for="radio-choice-28">Not likely at all</label>
+						<input type="radio" name="radio-choice" id="radio-choice-28" value="choice-28"/>
+					</li>
+				</ol>
+			</form>
+			<div>
+				<input type="submit" value="Submit">
+			</div>
+				<!--Submit, please insert--> 
+	</body>
+</html>
